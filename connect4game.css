@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url(connectimg/connect.jpg);
+}
+#board {
+  width: 630px;
+  height: 540px;
+  background-color: rgba(0, 255, 26, 0.889);
+  margin: 0 auto;
+  border: 10px solid rgba(47, 122, 3, 0.841);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tile {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid rgba(47, 122, 3, 0.841);
+  margin: 5px;
+}
+.red-piece {
+  background-color: red;
+  transition: 0.3s ease;
+}
+
+.yellow-piece {
+  background-color: yellow;
+  transition: 0.3s ease;
+}
+h1 {
+  color: rgba(255, 132, 0, 0.853);
+  -webkit-text-stroke-color: rgb(10, 10, 10);
+  -webkit-text-stroke-width: 0.57px;
+  background-color: bisque;
+  font-size: 50px;
+}
+.select {
+  font-size: 25px;
+  background-color: lineargradient(red, yellow);
+}
+.button {
+  font-size: 25px;
+  margin: 10px 10px;
+  padding: 20px auto;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: aquamarine;
+  color: rgb(49, 61, 197);
+  box-shadow: 5px 5px 8px rgba(71, 71, 71, 0.647);
+}
+.button:hover {
+  box-shadow: 8px 8px 11px rgb(42, 42, 42);
+}
+.button:active {
+  color: rgb(243, 243, 245);
+  background-color: rgb(5, 5, 255);
+  transition: 0.2s ease-in-out;
+}
